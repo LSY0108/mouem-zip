@@ -144,6 +144,13 @@ KOSIS 통계 데이터를 활용해 **지역 평균 전세가율과의 편차**�
 
 ---
 
+## 🔧 향후 보완 및 개선 계획
+### 1) 백엔드 구조 리팩토링 (완료)
+- Controller는 요청/응답 처리만 담당하고, 분석 책임은 Service 계층으로 위임하도록 구조를 재정리
+- Service를 address/deal/kosis 도메인별로 역할을 나누고, 인터페이스와 구현체를 분리해 확장성과 유지보수성을 고려
+
+- 리팩토링 레포: https://github.com/LSY0108/mouem-zip-refactor
+
 ## 👥 Team Roles
 
 | 이름 | 담당 |
